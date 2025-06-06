@@ -1,0 +1,54 @@
+body{
+   font-family: Merriweather;
+   background: url("./avacado.jpg");
+   background-size: cover;
+   text-align: center;
+}
+
+h1,h2{
+    color: rgb(128, 87, 48);
+}
+#board{
+    height: 540px;
+    width: 540px;
+    background-color:rgb(245, 236, 160);
+    border-radius: 9%;
+    margin: 0 auto;
+    display:flex ;
+    flex-wrap: wrap;
+    border: 5px solid rgb(156, 128, 76);
+}
+
+#board div{
+    height: 180px;
+    width: 180px;
+    background: url("./Screenshot_2025-06-05_at_9.52.57_PM-removebg-preview.png");
+    background-size: cover;
+}
+
+#board div img{
+    width: 120px;
+    height: 115px;
+    position: relative;
+    top:-12px;
+    
+}
+
+@media (max-width:600px) {
+    #board{
+    height: 450px;
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    #board div{
+         height: 150px;
+         width: 150px;
+    }
+
+    #board div img{
+    width: 100px;
+    height: 90px;
+}
+}
