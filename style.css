@@ -36,20 +36,20 @@ h1,h2{
 
 @media (max-width:600px) {
     #board{
-    height: 360px;
-    width: 360px;
+     height: 330px;
+    width: 330px;
     display: flex;
     flex-wrap: wrap;
 }
 
     #board div{
-        height: 120px;
-         width: 120px;
+       height: 110px;
+         width: 110px;
     }
+   
 
     #board div img{
-    width: 80px;
-    height: 70px;
-}
+    width: 60px;
+    height: 60px;
 }
 }
