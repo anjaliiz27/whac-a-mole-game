@@ -1,4 +1,5 @@
 window.onload= function(){
+     alert("Rules:\n1.Tap the avacado to score 5 points\n2.Game over if carrot is clicked.\nGOOD LUCK!");
     setGame();
 }
 
